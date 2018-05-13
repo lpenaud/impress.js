@@ -49,6 +49,10 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 
+h2 {
+    font-size: 72pt;
+}
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -258,7 +262,7 @@ a:focus {
     font-size: 64px;
     position: absolute;
     top: -0.5em;
-    left: 1.5em;
+    left: 0;
 
     -webkit-transform: translateZ(20px);
     -moz-transform:    translateZ(20px);
@@ -268,7 +272,7 @@ a:focus {
 }
 
 #title h1 {
-    font-size: 180px;
+    font-size: 150px;
 
     -webkit-transform: translateZ(50px);
     -moz-transform:    translateZ(50px);
